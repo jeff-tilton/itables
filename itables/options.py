@@ -19,3 +19,9 @@ maxBytes = 2 ** 16
 
 """Default column width for large tables"""
 columnDefs = [{"width": "70px", "targets": "_all"}]
+
+"""DataTables imports"""
+requirements = [
+    "https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js",
+    "https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js",
+]
